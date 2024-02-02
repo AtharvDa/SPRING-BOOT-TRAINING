@@ -31,12 +31,12 @@ public class EmployeeController {
 	@GetMapping("/{id}")
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable Long id) {
 		Optional<Employee> employee = empService.getEmployeeById(id);
-		
-		if(employee == null) {
+
+		if (employee == null) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 		return new ResponseEntity<Employee>(employee.get(), HttpStatus.OK);
-		
+
 	}
 
 	@PostMapping
@@ -55,9 +55,9 @@ public class EmployeeController {
 
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Employee> deleteEmployee(@PathVariable Long id) {
-		
+
 		Optional<Employee> employee = empService.getEmployeeById(id);
-		if(employee != null) {
+		if (employee != null) {
 			empService.deleteEmployee(id);
 			return new ResponseEntity<>(HttpStatus.OK);
 		}

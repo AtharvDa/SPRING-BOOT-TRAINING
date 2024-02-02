@@ -21,6 +21,8 @@ public class EmployeeService {
 	}
 
 	public Employee createEmployee(Employee employee) {
+//		employee.setCreatedOn(LocalDateTime.now());
+//		employee.setUpdatedOn(LocalDateTime.now());
 		return employeeRepository.save(employee);
 	}
 
@@ -28,6 +30,7 @@ public class EmployeeService {
 
 		if (employeeRepository.existsById(id)) {
 			updatedEmployee.setId(id);
+//			updatedEmployee.setUpdatedOn(LocalDateTime.now());
 			return employeeRepository.save(updatedEmployee);
 		}
 
