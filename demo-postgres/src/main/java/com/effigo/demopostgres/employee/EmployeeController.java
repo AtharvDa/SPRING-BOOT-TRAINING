@@ -55,7 +55,12 @@ public class EmployeeController {
 
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Employee> deleteEmployee(@PathVariable Long id) {
-		empService.deleteEmployee(id);
-		return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+		
+		Optional<Employee> employee = empService.getEmployeeById(id);
+		if(employee != null) {
+			empService.deleteEmployee(id);
+			return new ResponseEntity<>(HttpStatus.OK);
+		}
+		return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	}
 }

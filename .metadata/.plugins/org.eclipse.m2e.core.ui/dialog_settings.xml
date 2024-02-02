@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\LENOVO\Desktop\taskManager"/>
+			<item value="C:\Users\LENOVO\Desktop\employeeManagementSystem"/>
+			<item value="C:\Users\LENOVO\Desktop\springboot\employee.management.system"/>
 			<item value="C:\Users\LENOVO\Desktop\springboot\myfirstwebapp"/>
 			<item value="C:\Users\LENOVO\Desktop\springboot\demo-postgres"/>
 		</list>
@@ -13,5 +16,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
