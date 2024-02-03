@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
     <fullyQualifiedTypeName name="javax.tools.DocumentationTool.Location"/>
     <fullyQualifiedTypeName name="com.effigo.employeeManagementSystem.department.Department"/>
-    <fullyQualifiedTypeName name="com.effigo.employeeManagementSystem.location.Location"/>
     <fullyQualifiedTypeName name="com.effigo.employeeManagementSystem.employee.EmployeeService"/>
     <fullyQualifiedTypeName name="com.effigo.todo.taskManager.task.Task"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
@@ -43,4 +42,14 @@
     <fullyQualifiedTypeName name="com.effigo.todo.taskManager.entity.Task"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaAuditing"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.CreatedDate"/>
+    <fullyQualifiedTypeName name="com.effigo.employeeManagementSystem.location.Location"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.LastModifiedDate"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 </qualifiedTypeNameHistroy>
